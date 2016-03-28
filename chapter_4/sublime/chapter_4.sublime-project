@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/home/atty/Prog/CMAKE_TUTORIALS/chapter_4"
+		}
+	],
+	"settings":
+    {
+        "cc_include_options":
+        [
+             "-I/home/atty/Prog/CMAKE_TUTORIALS/chapter_4",
+        ]
+    }
+}

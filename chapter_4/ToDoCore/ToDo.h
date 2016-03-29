@@ -4,25 +4,22 @@
 #include <string>
 #include <vector>
 
+namespace ToDoCore {
 
-namespace ToDoCore
-{
+class ToDo {
+ public:
+  ToDo();
+  ~ToDo();
 
-class ToDo
-{
-public:
-    ToDo();
-    ~ToDo();
+  size_t size() const;
 
-    size_t size() const;
+  void addTask(const std::string& task);
+  std::string getTask(size_t index) const;
 
-    void addTask(const std::string& task);
-    std::string getTask(size_t index) const;
-
-private:
-    std::vector< std::string > this_tasks;
+ private:
+  std::vector<std::string> this_tasks;
 };
 
-} // namespace ToDoCore
+}  // namespace ToDoCore
 
-#endif // TODO_H
+#endif  // TODO_H

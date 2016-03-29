@@ -1,1 +1,1 @@
-sudo apt-get install -y google-mock
+sudo apt-get install -y google-mock jq

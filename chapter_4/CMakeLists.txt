@@ -22,11 +22,13 @@ if (NOT CONFIGURED_ONCE)
 endif()
 
 
-include_directories(${CMAKE_CURRENT_SOURCE_DIR})
+SET(SRC_DIR src)
 
-add_subdirectory(ToDoCore)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/${SRC_DIR})
 
-add_executable(toDo main.cc)
+add_subdirectory(${SRC_DIR}/ToDoCore)
+
+add_executable(toDo ${SRC_DIR}/main.cc)
 target_link_libraries(toDo toDoCore)
 
 add_test(toDoTest toDo)

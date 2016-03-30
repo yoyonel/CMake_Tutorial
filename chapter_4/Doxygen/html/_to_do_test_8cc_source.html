@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.7"/>
+<title>ToDoList:  Fichier source de /home/latty/Prog/CMake_Tutorial/chapter_4/src/ToDoCore/unit_test/ToDoTest.cc</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">ToDoList
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.7 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="namespaces.html"><span>Espaces&#160;de&#160;nommage</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Membres&#160;de&#160;fichier</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_to_do_test_8cc_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">ToDoTest.cc</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_to_do_test_8cc.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_to_do_8h.html">ToDoCore/ToDo.h</a>&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">using</span> std::string;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;gmock/gmock.h&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;using ::testing::Eq;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;gtest/gtest.h&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;using ::testing::Test;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keyword">namespace </span>ToDoCore {</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="namespace_to_do_core_1_1testing.html">   12</a></span>&#160;<span class="keyword">namespace </span>testing {</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_to_do_core_1_1testing_1_1_to_do_test.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_to_do_core_1_1testing_1_1_to_do_test.html">ToDoTest</a> : <span class="keyword">public</span> Test {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_to_do_core_1_1testing_1_1_to_do_test.html#ae616fd99cc5a805ca5e7dfd01161f838">   23</a></span>&#160;  <a class="code" href="class_to_do_core_1_1testing_1_1_to_do_test.html#ae616fd99cc5a805ca5e7dfd01161f838">ToDoTest</a>() {}</div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_to_do_core_1_1testing_1_1_to_do_test.html#a60215b4387d7543fe3d8b95a4ea68efb">   28</a></span>&#160;  <a class="code" href="class_to_do_core_1_1testing_1_1_to_do_test.html#a60215b4387d7543fe3d8b95a4ea68efb">~ToDoTest</a>() {}</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="class_to_do_core_1_1testing_1_1_to_do_test.html#a7c6934ff5c428bbf570ba84a236c8ea8">   34</a></span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_to_do_core_1_1testing_1_1_to_do_test.html#a7c6934ff5c428bbf570ba84a236c8ea8">SetUp</a>() {}</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="class_to_do_core_1_1testing_1_1_to_do_test.html#a20a3f1fa62263094c32fed4460592a16">   39</a></span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_to_do_core_1_1testing_1_1_to_do_test.html#a20a3f1fa62263094c32fed4460592a16">TearDown</a>() {}</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="class_to_do_core_1_1testing_1_1_to_do_test.html#aa574f1ef8dce28e299d993d06a0bbba9">   41</a></span>&#160;  <a class="code" href="class_to_do_core_1_1_to_do.html">ToDo</a> <a class="code" href="class_to_do_core_1_1testing_1_1_to_do_test.html#aa574f1ef8dce28e299d993d06a0bbba9">list</a>; </div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="class_to_do_core_1_1testing_1_1_to_do_test.html#a9f8905b1176e6183f287ab0afe296a3c">   43</a></span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="class_to_do_core_1_1testing_1_1_to_do_test.html#a9f8905b1176e6183f287ab0afe296a3c">taskCount</a> = 3; </div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="class_to_do_core_1_1testing_1_1_to_do_test.html#a6ef770d8f95f609e100d585c0635f3d7">   44</a></span>&#160;  <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">string</span> <a class="code" href="class_to_do_core_1_1testing_1_1_to_do_test.html#a6ef770d8f95f609e100d585c0635f3d7">tasks</a>[<a class="code" href="class_to_do_core_1_1testing_1_1_to_do_test.html#a9f8905b1176e6183f287ab0afe296a3c">taskCount</a>]; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;};</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">const</span> <span class="keywordtype">string</span> <a class="code" href="class_to_do_core_1_1testing_1_1_to_do_test.html#a6ef770d8f95f609e100d585c0635f3d7">ToDoTest::tasks</a>[taskCount] = {<span class="stringliteral">&quot;write code&quot;</span>, <span class="stringliteral">&quot;compile&quot;</span>, <span class="stringliteral">&quot;test&quot;</span>}; </div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="namespace_to_do_core_1_1testing.html#a8856a84197dfa84ec81d14bd227c2264">   49</a></span>&#160;<a class="code" href="namespace_to_do_core_1_1testing.html#a8856a84197dfa84ec81d14bd227c2264">TEST_F</a>(<a class="code" href="class_to_do_core_1_1testing_1_1_to_do_test.html">ToDoTest</a>, constructor_createsEmptyList) {</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  EXPECT_THAT(list.size(), Eq(<span class="keywordtype">size_t</span>(0)));</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="namespace_to_do_core_1_1testing.html#ad1ff01cd7b75e9ba48225bbde5f1bb2b">   53</a></span>&#160;<a class="code" href="namespace_to_do_core_1_1testing.html#a8856a84197dfa84ec81d14bd227c2264">TEST_F</a>(<a class="code" href="class_to_do_core_1_1testing_1_1_to_do_test.html">ToDoTest</a>, addTask_threeTimes_sizeIsThree) {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  list.addTask(tasks[0]);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  list.addTask(tasks[1]);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  list.addTask(tasks[2]);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  EXPECT_THAT(list.size(), Eq(taskCount));</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="namespace_to_do_core_1_1testing.html#a8d6cdf71a6d2d85a7d6dc6e4ced72c51">   61</a></span>&#160;<a class="code" href="namespace_to_do_core_1_1testing.html#a8856a84197dfa84ec81d14bd227c2264">TEST_F</a>(<a class="code" href="class_to_do_core_1_1testing_1_1_to_do_test.html">ToDoTest</a>, getTask_withOneTask_returnsCorrectString) {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  list.addTask(tasks[0]);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  ASSERT_THAT(list.size(), Eq(<span class="keywordtype">size_t</span>(1)));</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  EXPECT_THAT(list.getTask(0), Eq(tasks[0]));</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="namespace_to_do_core_1_1testing.html#ae6f99ee22a68254ccf5750d1788cd082">   68</a></span>&#160;<a class="code" href="namespace_to_do_core_1_1testing.html#a8856a84197dfa84ec81d14bd227c2264">TEST_F</a>(<a class="code" href="class_to_do_core_1_1testing_1_1_to_do_test.html">ToDoTest</a>, getTask_withThreeTasts_returnsCorrectStringForEachIndex) {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  list.addTask(tasks[0]);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  list.addTask(tasks[1]);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  list.addTask(tasks[2]);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  ASSERT_THAT(list.size(), Eq(taskCount));</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  EXPECT_THAT(list.getTask(0), Eq(tasks[0]));</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  EXPECT_THAT(list.getTask(1), Eq(tasks[1]));</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  EXPECT_THAT(list.getTask(2), Eq(tasks[2]));</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;}</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}  <span class="comment">// namespace testing</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;}  <span class="comment">// namespace ToDoCore</span></div>
+<div class="ttc" id="class_to_do_core_1_1testing_1_1_to_do_test_html_a7c6934ff5c428bbf570ba84a236c8ea8"><div class="ttname"><a href="class_to_do_core_1_1testing_1_1_to_do_test.html#a7c6934ff5c428bbf570ba84a236c8ea8">ToDoCore::testing::ToDoTest::SetUp</a></div><div class="ttdeci">virtual void SetUp()</div><div class="ttdef"><b>Definition:</b> <a href="_to_do_test_8cc_source.html#l00034">ToDoTest.cc:34</a></div></div>
+<div class="ttc" id="class_to_do_core_1_1testing_1_1_to_do_test_html_a6ef770d8f95f609e100d585c0635f3d7"><div class="ttname"><a href="class_to_do_core_1_1testing_1_1_to_do_test.html#a6ef770d8f95f609e100d585c0635f3d7">ToDoCore::testing::ToDoTest::tasks</a></div><div class="ttdeci">static const string tasks[taskCount]</div><div class="ttdef"><b>Definition:</b> <a href="_to_do_test_8cc_source.html#l00044">ToDoTest.cc:44</a></div></div>
+<div class="ttc" id="namespace_to_do_core_1_1testing_html_a8856a84197dfa84ec81d14bd227c2264"><div class="ttname"><a href="namespace_to_do_core_1_1testing.html#a8856a84197dfa84ec81d14bd227c2264">ToDoCore::testing::TEST_F</a></div><div class="ttdeci">TEST_F(ToDoTest, constructor_createsEmptyList)</div><div class="ttdef"><b>Definition:</b> <a href="_to_do_test_8cc_source.html#l00049">ToDoTest.cc:49</a></div></div>
+<div class="ttc" id="class_to_do_core_1_1testing_1_1_to_do_test_html_aa574f1ef8dce28e299d993d06a0bbba9"><div class="ttname"><a href="class_to_do_core_1_1testing_1_1_to_do_test.html#aa574f1ef8dce28e299d993d06a0bbba9">ToDoCore::testing::ToDoTest::list</a></div><div class="ttdeci">ToDo list</div><div class="ttdef"><b>Definition:</b> <a href="_to_do_test_8cc_source.html#l00041">ToDoTest.cc:41</a></div></div>
+<div class="ttc" id="class_to_do_core_1_1testing_1_1_to_do_test_html_a20a3f1fa62263094c32fed4460592a16"><div class="ttname"><a href="class_to_do_core_1_1testing_1_1_to_do_test.html#a20a3f1fa62263094c32fed4460592a16">ToDoCore::testing::ToDoTest::TearDown</a></div><div class="ttdeci">virtual void TearDown()</div><div class="ttdef"><b>Definition:</b> <a href="_to_do_test_8cc_source.html#l00039">ToDoTest.cc:39</a></div></div>
+<div class="ttc" id="class_to_do_core_1_1testing_1_1_to_do_test_html_ae616fd99cc5a805ca5e7dfd01161f838"><div class="ttname"><a href="class_to_do_core_1_1testing_1_1_to_do_test.html#ae616fd99cc5a805ca5e7dfd01161f838">ToDoCore::testing::ToDoTest::ToDoTest</a></div><div class="ttdeci">ToDoTest()</div><div class="ttdef"><b>Definition:</b> <a href="_to_do_test_8cc_source.html#l00023">ToDoTest.cc:23</a></div></div>
+<div class="ttc" id="_to_do_8h_html"><div class="ttname"><a href="_to_do_8h.html">ToDo.h</a></div></div>
+<div class="ttc" id="class_to_do_core_1_1testing_1_1_to_do_test_html"><div class="ttname"><a href="class_to_do_core_1_1testing_1_1_to_do_test.html">ToDoCore::testing::ToDoTest</a></div><div class="ttdef"><b>Definition:</b> <a href="_to_do_test_8cc_source.html#l00017">ToDoTest.cc:17</a></div></div>
+<div class="ttc" id="class_to_do_core_1_1testing_1_1_to_do_test_html_a9f8905b1176e6183f287ab0afe296a3c"><div class="ttname"><a href="class_to_do_core_1_1testing_1_1_to_do_test.html#a9f8905b1176e6183f287ab0afe296a3c">ToDoCore::testing::ToDoTest::taskCount</a></div><div class="ttdeci">static const size_t taskCount</div><div class="ttdef"><b>Definition:</b> <a href="_to_do_test_8cc_source.html#l00043">ToDoTest.cc:43</a></div></div>
+<div class="ttc" id="class_to_do_core_1_1_to_do_html"><div class="ttname"><a href="class_to_do_core_1_1_to_do.html">ToDoCore::ToDo</a></div><div class="ttdef"><b>Definition:</b> <a href="_to_do_8h_source.html#l00013">ToDo.h:13</a></div></div>
+<div class="ttc" id="class_to_do_core_1_1testing_1_1_to_do_test_html_a60215b4387d7543fe3d8b95a4ea68efb"><div class="ttname"><a href="class_to_do_core_1_1testing_1_1_to_do_test.html#a60215b4387d7543fe3d8b95a4ea68efb">ToDoCore::testing::ToDoTest::~ToDoTest</a></div><div class="ttdeci">~ToDoTest()</div><div class="ttdef"><b>Definition:</b> <a href="_to_do_test_8cc_source.html#l00028">ToDoTest.cc:28</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_f4dc67fc64fccf1909209b83af600c17.html">ToDoCore</a></li><li class="navelem"><a class="el" href="dir_f7da5b7138ad17e7e80c7775a196152d.html">unit_test</a></li><li class="navelem"><a class="el" href="_to_do_test_8cc.html">ToDoTest.cc</a></li>
+    <li class="footer">Généré le Mercredi 30 Mars 2016 13:40:20 pour ToDoList par
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -14,7 +14,8 @@
     {
         "cc_include_options":
         [
-             "-I/home/atty/Prog/CMAKE_TUTORIALS/chapter_4",
+             "-I/home/atty/Prog/CMAKE_TUORTIALS/chapter_4/src",
+             "-I/usr/include/"
         ]
     }
 }

@@ -13,31 +13,31 @@ namespace ToDoCore {
 class ToDo {
  public:
   /**
-   * @brief
+   * @brief Constructeur pour la classe ToDo
    *
    */
   ToDo();
   /**
-   * @brief
+   * @brief Destructeur de la classe ToDo
    *
    */
   ~ToDo();
 
   /**
-   * @brief
+   * @brief Renvoie la taille de la liste des tâches qui restent à effectuer.
    *
    * @return size_t
    */
   size_t size() const;
 
   /**
-   * @brief
+   * @brief Rajoute une tâche dans la liste des tâches à effectuer
    *
    * @param task
    */
   void addTask(const std::string& task);
   /**
-   * @brief
+   * @brief Renvoie la tâche d'indice `index`
    *
    * @param index
    * @return std::string

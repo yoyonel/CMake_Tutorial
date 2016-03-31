@@ -109,36 +109,36 @@ $(document).ready(function(){initNavTree('_to_do_8cc_source.html','');});
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="namespace_to_do_core.html">    3</a></span>&#160;<span class="keyword">namespace </span>ToDoCore {</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="class_to_do_core_1_1_to_do.html#aef293d618ec7f7ef5024655f9ee58554">    9</a></span>&#160;<a class="code" href="class_to_do_core_1_1_to_do.html#aef293d618ec7f7ef5024655f9ee58554">ToDo::ToDo</a>() {}</div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="class_to_do_core_1_1_to_do.html#aef293d618ec7f7ef5024655f9ee58554">    5</a></span>&#160;<a class="code" href="class_to_do_core_1_1_to_do.html#aef293d618ec7f7ef5024655f9ee58554">ToDo::ToDo</a>() {}</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="class_to_do_core_1_1_to_do.html#af97c39227f065a40b8fb036558dd1186">    7</a></span>&#160;<a class="code" href="class_to_do_core_1_1_to_do.html#af97c39227f065a40b8fb036558dd1186">ToDo::~ToDo</a>() {}</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="class_to_do_core_1_1_to_do.html#af1d907e8fd8a2b2f6de715fe5b2844b8">    9</a></span>&#160;<span class="keywordtype">size_t</span> <a class="code" href="class_to_do_core_1_1_to_do.html#af1d907e8fd8a2b2f6de715fe5b2844b8">ToDo::size</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> this_tasks.size(); }</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_to_do_core_1_1_to_do.html#af97c39227f065a40b8fb036558dd1186">   15</a></span>&#160;<a class="code" href="class_to_do_core_1_1_to_do.html#af97c39227f065a40b8fb036558dd1186">ToDo::~ToDo</a>() {}</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_to_do_core_1_1_to_do.html#af1d907e8fd8a2b2f6de715fe5b2844b8">   22</a></span>&#160;<span class="keywordtype">size_t</span> <a class="code" href="class_to_do_core_1_1_to_do.html#af1d907e8fd8a2b2f6de715fe5b2844b8">ToDo::size</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> this_tasks.size(); }</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_to_do_core_1_1_to_do.html#a51d4e753513c859832cc2222dbcd3755">   29</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_to_do_core_1_1_to_do.html#a51d4e753513c859832cc2222dbcd3755">ToDo::addTask</a>(<span class="keyword">const</span> std::string&amp; task) { this_tasks.push_back(task); }</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="class_to_do_core_1_1_to_do.html#a9f8c02d8e64ccc6566a4c87b2dbfcabf">   37</a></span>&#160;std::string <a class="code" href="class_to_do_core_1_1_to_do.html#a9f8c02d8e64ccc6566a4c87b2dbfcabf">ToDo::getTask</a>(<span class="keywordtype">size_t</span> index)<span class="keyword"> const </span>{</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="keywordflow">if</span> (index &lt; this_tasks.size()) {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">return</span> this_tasks[index];</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  }</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}  <span class="comment">// namespace ToDo</span></div>
-<div class="ttc" id="class_to_do_core_1_1_to_do_html_af97c39227f065a40b8fb036558dd1186"><div class="ttname"><a href="class_to_do_core_1_1_to_do.html#af97c39227f065a40b8fb036558dd1186">ToDoCore::ToDo::~ToDo</a></div><div class="ttdeci">~ToDo()</div><div class="ttdef"><b>Definition:</b> <a href="_to_do_8cc_source.html#l00015">ToDo.cc:15</a></div></div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_to_do_core_1_1_to_do.html#a51d4e753513c859832cc2222dbcd3755">   11</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_to_do_core_1_1_to_do.html#a51d4e753513c859832cc2222dbcd3755">ToDo::addTask</a>(<span class="keyword">const</span> std::string&amp; task) { this_tasks.push_back(task); }</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_to_do_core_1_1_to_do.html#a9f8c02d8e64ccc6566a4c87b2dbfcabf">   13</a></span>&#160;std::string <a class="code" href="class_to_do_core_1_1_to_do.html#a9f8c02d8e64ccc6566a4c87b2dbfcabf">ToDo::getTask</a>(<span class="keywordtype">size_t</span> index)<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  <span class="keywordflow">if</span> (index &lt; this_tasks.size()) {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">return</span> this_tasks[index];</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  }</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}  <span class="comment">// namespace ToDo</span></div>
+<div class="ttc" id="class_to_do_core_1_1_to_do_html_af97c39227f065a40b8fb036558dd1186"><div class="ttname"><a href="class_to_do_core_1_1_to_do.html#af97c39227f065a40b8fb036558dd1186">ToDoCore::ToDo::~ToDo</a></div><div class="ttdeci">~ToDo()</div><div class="ttdoc">Destructeur de la classe ToDo. </div><div class="ttdef"><b>Definition:</b> <a href="_to_do_8cc_source.html#l00007">ToDo.cc:7</a></div></div>
 <div class="ttc" id="_to_do_8h_html"><div class="ttname"><a href="_to_do_8h.html">ToDo.h</a></div></div>
-<div class="ttc" id="class_to_do_core_1_1_to_do_html_a51d4e753513c859832cc2222dbcd3755"><div class="ttname"><a href="class_to_do_core_1_1_to_do.html#a51d4e753513c859832cc2222dbcd3755">ToDoCore::ToDo::addTask</a></div><div class="ttdeci">void addTask(const std::string &amp;task)</div><div class="ttdef"><b>Definition:</b> <a href="_to_do_8cc_source.html#l00029">ToDo.cc:29</a></div></div>
-<div class="ttc" id="class_to_do_core_1_1_to_do_html_af1d907e8fd8a2b2f6de715fe5b2844b8"><div class="ttname"><a href="class_to_do_core_1_1_to_do.html#af1d907e8fd8a2b2f6de715fe5b2844b8">ToDoCore::ToDo::size</a></div><div class="ttdeci">size_t size() const </div><div class="ttdef"><b>Definition:</b> <a href="_to_do_8cc_source.html#l00022">ToDo.cc:22</a></div></div>
-<div class="ttc" id="class_to_do_core_1_1_to_do_html_a9f8c02d8e64ccc6566a4c87b2dbfcabf"><div class="ttname"><a href="class_to_do_core_1_1_to_do.html#a9f8c02d8e64ccc6566a4c87b2dbfcabf">ToDoCore::ToDo::getTask</a></div><div class="ttdeci">std::string getTask(size_t index) const </div><div class="ttdef"><b>Definition:</b> <a href="_to_do_8cc_source.html#l00037">ToDo.cc:37</a></div></div>
-<div class="ttc" id="class_to_do_core_1_1_to_do_html_aef293d618ec7f7ef5024655f9ee58554"><div class="ttname"><a href="class_to_do_core_1_1_to_do.html#aef293d618ec7f7ef5024655f9ee58554">ToDoCore::ToDo::ToDo</a></div><div class="ttdeci">ToDo()</div><div class="ttdef"><b>Definition:</b> <a href="_to_do_8cc_source.html#l00009">ToDo.cc:9</a></div></div>
+<div class="ttc" id="class_to_do_core_1_1_to_do_html_a51d4e753513c859832cc2222dbcd3755"><div class="ttname"><a href="class_to_do_core_1_1_to_do.html#a51d4e753513c859832cc2222dbcd3755">ToDoCore::ToDo::addTask</a></div><div class="ttdeci">void addTask(const std::string &amp;task)</div><div class="ttdoc">Rajoute une tâche dans la liste des tâches à effectuer. </div><div class="ttdef"><b>Definition:</b> <a href="_to_do_8cc_source.html#l00011">ToDo.cc:11</a></div></div>
+<div class="ttc" id="class_to_do_core_1_1_to_do_html_af1d907e8fd8a2b2f6de715fe5b2844b8"><div class="ttname"><a href="class_to_do_core_1_1_to_do.html#af1d907e8fd8a2b2f6de715fe5b2844b8">ToDoCore::ToDo::size</a></div><div class="ttdeci">size_t size() const </div><div class="ttdoc">Renvoie la taille de la liste des tâches qui restent à effectuer. </div><div class="ttdef"><b>Definition:</b> <a href="_to_do_8cc_source.html#l00009">ToDo.cc:9</a></div></div>
+<div class="ttc" id="class_to_do_core_1_1_to_do_html_a9f8c02d8e64ccc6566a4c87b2dbfcabf"><div class="ttname"><a href="class_to_do_core_1_1_to_do.html#a9f8c02d8e64ccc6566a4c87b2dbfcabf">ToDoCore::ToDo::getTask</a></div><div class="ttdeci">std::string getTask(size_t index) const </div><div class="ttdoc">Renvoie la tâche d&#39;indice index </div><div class="ttdef"><b>Definition:</b> <a href="_to_do_8cc_source.html#l00013">ToDo.cc:13</a></div></div>
+<div class="ttc" id="class_to_do_core_1_1_to_do_html_aef293d618ec7f7ef5024655f9ee58554"><div class="ttname"><a href="class_to_do_core_1_1_to_do.html#aef293d618ec7f7ef5024655f9ee58554">ToDoCore::ToDo::ToDo</a></div><div class="ttdeci">ToDo()</div><div class="ttdoc">Constructeur pour la classe ToDo. </div><div class="ttdef"><b>Definition:</b> <a href="_to_do_8cc_source.html#l00005">ToDo.cc:5</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_f4dc67fc64fccf1909209b83af600c17.html">ToDoCore</a></li><li class="navelem"><a class="el" href="_to_do_8cc.html">ToDo.cc</a></li>
-    <li class="footer">Généré le Mercredi 30 Mars 2016 14:03:54 pour ToDoList par
+    <li class="footer">Généré le Mercredi 30 Mars 2016 15:58:56 pour ToDoList par
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

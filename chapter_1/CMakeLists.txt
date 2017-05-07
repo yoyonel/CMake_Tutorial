@@ -17,8 +17,10 @@ if (NOT CONFIGURED_ONCE)
         CACHE STRING "Flags used by the compiler during all build types." FORCE)
 endif()
 
-add_executable(toDo main.cc
-					ToDo.cc)
+add_executable(toDo 
+	src/main.cc
+	src/ToDo.cc
+)
 
 add_test(toDoTest toDo)
 
